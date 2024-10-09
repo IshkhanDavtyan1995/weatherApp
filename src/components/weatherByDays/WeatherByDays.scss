@@ -1,0 +1,14 @@
+.weatherByDays {
+    display: flex;
+    justify-content: center;
+    .weatherByDaysItem {
+        margin-right: 32px;
+        padding: 32px;
+        cursor: pointer;
+        border: 1px solid black;
+        border-radius: 16px;
+    }
+    .selectedDay{
+        box-shadow: -4px -5px 47px -22px rgba(0,0,0,0.75);
+    }
+}
